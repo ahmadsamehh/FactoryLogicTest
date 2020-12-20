@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "826476634528",
+    "firebase_url": "https://lays-fddf5.firebaseio.com",
+    "project_id": "lays-fddf5",
+    "storage_bucket": "lays-fddf5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826476634528:android:0743f451fb212202ebc4c5",
+        "android_client_info": {
+          "package_name": "com.example.datepickertest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826476634528-2ipjqt6rng6guljd6eq15qn5u6chb0sk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4m-iFetfLUTMZXhhcDbq9o-KVXPqFVeQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826476634528-2ipjqt6rng6guljd6eq15qn5u6chb0sk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

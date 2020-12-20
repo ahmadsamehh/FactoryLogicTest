@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/buttonTest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <!--    <DatePicker-->
+    <!--        android:id="@+id/datePicker1"-->
+    <!--        android:layout_width="400dp"-->
+    <!--        android:layout_height="405dp"-->
+    <!--        android:datePickerMode="calendar"-->
+    <!--        tools:layout_editor_absoluteX="3dp"-->
+    <!--        tools:layout_editor_absoluteY="11dp" />-->
+
+    <Button
+        android:id="@+id/buttonUpdateValues"
+        android:layout_width="0dp"
+        android:layout_height="100sp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/black"
+        android:text="Update Values"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPressMe" />
+
+    <Button
+        android:id="@+id/buttonPressMe"
+        android:layout_width="0dp"
+        android:layout_height="100sp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/black"
+        android:onClick="setDateInFireBase"
+        android:text="Press to choose date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ir.androidexception.datatable.DataTable
+        android:id="@+id/data_table"
+        android:layout_width="412dp"
+        android:layout_height="430dp"
+        android:layout_margin="8dp"
+        android:layout_marginTop="40dp"
+        app:corner_radius="8dp"
+        app:direction="ltr"
+        app:header_background_color="#fff"
+        app:header_gravity="center"
+        app:header_horizontal_padding="0dp"
+        app:header_text_color="#000"
+        app:header_text_size="12sp"
+        app:header_vertical_padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonUpdateValues"
+        app:layout_constraintVertical_bias="1.0"
+        app:persian_number="false"
+        app:row_background_color="#fff"
+        app:row_gravity="center"
+        app:row_text_color="#000"
+        app:row_text_size="12sp"
+        app:row_vertical_padding="16dp"
+        app:shadow="8dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
